@@ -10,8 +10,8 @@ class App < Sinatra::Base
   get '/:page' do
     if File.exists?('views/'+params[:page]+'.erb')
       erb params[:page].to_sym
-    else
-      raise error(404) 
+    else 
+      erb :fourohfour
     end   
   end
   
