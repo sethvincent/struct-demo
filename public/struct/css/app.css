@@ -1,0 +1,47 @@
+/* debug */
+.container {
+}
+
+.column, .columns {
+  background-color: #cecece;
+  text-align: center;
+}
+
+.column p, .columns p {
+  padding: 20px;
+}
+
+h1 {
+  padding: 20px;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.column .column,
+.column .columns,
+.columns .column,
+.columns .columns {
+  background-color: #ececec;
+}
+
+/* all ready for you */
+@media only screen and (min-width: 480px) {
+  
+}
+
+@media only screen and (min-width: 600px) {
+  
+}
+
+@media only screen and (min-width: 768px) {
+  
+}
+
+@media only screen and (min-width: 992px) {
+  
+}
+
+@media only screen and (min-width: 1382px) {
+  
+}
